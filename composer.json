@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arghavan\\Notification\\InventoryServiceProvider"
+                "Arghavan\\Notification\\UserNotificationProvider"
             ]
         }
     }
