@@ -1,0 +1,23 @@
+{
+    "name": "arghavan/notification",
+    "description": "Notification package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arghavan\\Notification\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arghavan\\Notification\\\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arghavan\\Notification\\InventoryServiceProvider"
+            ]
+        }
+    }
+}
