@@ -5,18 +5,18 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Arghavan\\Notification\\": "src/"
+            "UserNotification\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Arghavan\\Notification\\\\Tests\\": "tests/"
+            "UserNotification\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Arghavan\\Notification\\UserNotificationProvider"
+                "UserNotification\\UserNotificationProvider"
             ]
         }
     }
